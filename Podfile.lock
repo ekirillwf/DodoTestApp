@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - PinLayout (1.8.13)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher (~> 5.13.0)
+  - PinLayout (~> 1.8.6)
+  - SwiftKeychainWrapper
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - PinLayout
+    - SwiftKeychainWrapper
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 63dc381424fa845b01109e7cbebbbeea9243a89f
+
+COCOAPODS: 1.10.0
