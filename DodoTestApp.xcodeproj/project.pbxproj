@@ -3,17 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		633A07E725F1312F001CFFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A07E625F1312F001CFFFF /* AppDelegate.swift */; };
-		633A07E925F1312F001CFFFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A07E825F1312F001CFFFF /* SceneDelegate.swift */; };
 		633A07EB25F1312F001CFFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A07EA25F1312F001CFFFF /* ViewController.swift */; };
-		633A07EE25F1312F001CFFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633A07EC25F1312F001CFFFF /* Main.storyboard */; };
 		633A07F125F1312F001CFFFF /* DodoTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 633A07EF25F1312F001CFFFF /* DodoTestApp.xcdatamodeld */; };
 		633A07F325F13130001CFFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633A07F225F13130001CFFFF /* Assets.xcassets */; };
-		633A07F625F13130001CFFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633A07F425F13130001CFFFF /* LaunchScreen.storyboard */; };
+		633A080A25F133D1001CFFFF /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A080925F133D1001CFFFF /* ServerManager.swift */; };
+		6355E63225F1475800FC14F7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355E63125F1475800FC14F7 /* View.swift */; };
+		6355E63525F1476000FC14F7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355E63425F1476000FC14F7 /* Presenter.swift */; };
+		6355E63C25F1502A00FC14F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355E63B25F1502A00FC14F7 /* SceneDelegate.swift */; };
+		6394469925F135E200C7CD51 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394469825F135E200C7CD51 /* AppHelper.swift */; };
+		639446FD25F13CDE00C7CD51 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639446FC25F13CDE00C7CD51 /* BaseVC.swift */; };
+		6394470025F13CF700C7CD51 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639446FF25F13CF700C7CD51 /* PreviewVC.swift */; };
+		6394470325F13D6900C7CD51 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394470225F13D6900C7CD51 /* ToastView.swift */; };
+		6394470625F13DD000C7CD51 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394470525F13DD000C7CD51 /* CustomLabel.swift */; };
+		6394470925F13E4A00C7CD51 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394470825F13E4A00C7CD51 /* BaseView.swift */; };
+		6394472125F1421400C7CD51 /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394472025F1421400C7CD51 /* BaseTableCell.swift */; };
+		6394472625F1429D00C7CD51 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394472525F1429D00C7CD51 /* PreviewView.swift */; };
+		6394472925F1431B00C7CD51 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394472825F1431B00C7CD51 /* BaseCollectionCell.swift */; };
+		6394472C25F1433A00C7CD51 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394472B25F1433A00C7CD51 /* DBManager.swift */; };
 		ACBBA0F57DA675B208F0385C /* Pods_DodoTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A82D6BEADEF7B0D67CB083F /* Pods_DodoTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,13 +34,24 @@
 		3C93DA377289370EE8175A4C /* Pods-DodoTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodoTestApp.debug.xcconfig"; path = "Target Support Files/Pods-DodoTestApp/Pods-DodoTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		633A07E325F1312F001CFFFF /* DodoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633A07E625F1312F001CFFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		633A07E825F1312F001CFFFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		633A07EA25F1312F001CFFFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		633A07ED25F1312F001CFFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		633A07F025F1312F001CFFFF /* DodoTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DodoTestApp.xcdatamodel; sourceTree = "<group>"; };
 		633A07F225F13130001CFFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		633A07F525F13130001CFFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633A07F725F13130001CFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633A080925F133D1001CFFFF /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		6355E63125F1475800FC14F7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		6355E63425F1476000FC14F7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		6355E63B25F1502A00FC14F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		6394469825F135E200C7CD51 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		639446FC25F13CDE00C7CD51 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		639446FF25F13CF700C7CD51 /* PreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
+		6394470225F13D6900C7CD51 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		6394470525F13DD000C7CD51 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		6394470825F13E4A00C7CD51 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6394472025F1421400C7CD51 /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
+		6394472525F1429D00C7CD51 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		6394472825F1431B00C7CD51 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		6394472B25F1433A00C7CD51 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +72,6 @@
 				3C93DA377289370EE8175A4C /* Pods-DodoTestApp.debug.xcconfig */,
 				26BCEEFD4767C3E8EC328A93 /* Pods-DodoTestApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,16 +96,67 @@
 		633A07E525F1312F001CFFFF /* DodoTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				6394469725F135D700C7CD51 /* Helpers */,
+				633A080625F133A1001CFFFF /* Services */,
+				6394472325F1421C00C7CD51 /* Base */,
 				633A07E625F1312F001CFFFF /* AppDelegate.swift */,
-				633A07E825F1312F001CFFFF /* SceneDelegate.swift */,
+				6355E63B25F1502A00FC14F7 /* SceneDelegate.swift */,
 				633A07EA25F1312F001CFFFF /* ViewController.swift */,
-				633A07EC25F1312F001CFFFF /* Main.storyboard */,
+				6355E63125F1475800FC14F7 /* View.swift */,
+				6355E63425F1476000FC14F7 /* Presenter.swift */,
 				633A07F225F13130001CFFFF /* Assets.xcassets */,
-				633A07F425F13130001CFFFF /* LaunchScreen.storyboard */,
 				633A07F725F13130001CFFFF /* Info.plist */,
 				633A07EF25F1312F001CFFFF /* DodoTestApp.xcdatamodeld */,
 			);
 			path = DodoTestApp;
+			sourceTree = "<group>";
+		};
+		633A080625F133A1001CFFFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				633A080825F133BE001CFFFF /* DB */,
+				633A080725F133B9001CFFFF /* API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		633A080725F133B9001CFFFF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				633A080925F133D1001CFFFF /* ServerManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		633A080825F133BE001CFFFF /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				6394472B25F1433A00C7CD51 /* DBManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		6394469725F135D700C7CD51 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6394469825F135E200C7CD51 /* AppHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6394472325F1421C00C7CD51 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				639446FC25F13CDE00C7CD51 /* BaseVC.swift */,
+				639446FF25F13CF700C7CD51 /* PreviewVC.swift */,
+				6394470225F13D6900C7CD51 /* ToastView.swift */,
+				6394470525F13DD000C7CD51 /* CustomLabel.swift */,
+				6394470825F13E4A00C7CD51 /* BaseView.swift */,
+				6394472025F1421400C7CD51 /* BaseTableCell.swift */,
+				6394472525F1429D00C7CD51 /* PreviewView.swift */,
+				6394472825F1431B00C7CD51 /* BaseCollectionCell.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		FBF953F3C8B037CF6728D2BB /* Frameworks */ = {
@@ -154,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633A07F625F13130001CFFFF /* LaunchScreen.storyboard in Resources */,
 				633A07F325F13130001CFFFF /* Assets.xcassets in Resources */,
-				633A07EE25F1312F001CFFFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,33 +279,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6355E63225F1475800FC14F7 /* View.swift in Sources */,
+				6394472625F1429D00C7CD51 /* PreviewView.swift in Sources */,
+				633A080A25F133D1001CFFFF /* ServerManager.swift in Sources */,
+				6355E63525F1476000FC14F7 /* Presenter.swift in Sources */,
+				6394472125F1421400C7CD51 /* BaseTableCell.swift in Sources */,
+				6394470625F13DD000C7CD51 /* CustomLabel.swift in Sources */,
+				6394469925F135E200C7CD51 /* AppHelper.swift in Sources */,
+				6355E63C25F1502A00FC14F7 /* SceneDelegate.swift in Sources */,
 				633A07EB25F1312F001CFFFF /* ViewController.swift in Sources */,
+				6394472925F1431B00C7CD51 /* BaseCollectionCell.swift in Sources */,
 				633A07E725F1312F001CFFFF /* AppDelegate.swift in Sources */,
-				633A07E925F1312F001CFFFF /* SceneDelegate.swift in Sources */,
+				6394470025F13CF700C7CD51 /* PreviewVC.swift in Sources */,
+				6394472C25F1433A00C7CD51 /* DBManager.swift in Sources */,
+				639446FD25F13CDE00C7CD51 /* BaseVC.swift in Sources */,
+				6394470325F13D6900C7CD51 /* ToastView.swift in Sources */,
+				6394470925F13E4A00C7CD51 /* BaseView.swift in Sources */,
 				633A07F125F1312F001CFFFF /* DodoTestApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		633A07EC25F1312F001CFFFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				633A07ED25F1312F001CFFFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		633A07F425F13130001CFFFF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				633A07F525F13130001CFFFF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		633A07F825F13130001CFFFF /* Debug */ = {
@@ -370,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kirill.DodoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kirill.DodoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
